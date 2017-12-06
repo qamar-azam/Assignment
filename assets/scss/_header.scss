@@ -1,0 +1,31 @@
+.site-header{	
+	padding-top: 22px;
+	padding-bottom: 30px;
+
+	@include bp( iphone ){
+    	text-align: center;
+    }
+}
+
+.site-branding{
+    float: left;
+
+    a{
+        display: block;
+        width: 180px;
+        height: 20px;
+    }
+
+    @include bp( iphone ){
+    	float: none;
+    }
+}
+
+.searchform{
+    float: right;
+    margin-top: 18px;
+
+    @include bp( iphone ){
+        float: none;
+    }   
+}

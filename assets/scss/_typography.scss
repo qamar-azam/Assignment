@@ -1,0 +1,58 @@
+html{
+	font-size: 100%;
+}
+
+
+
+body,
+button,
+input,
+select,
+textarea {
+	font-family: $default-font;
+}
+
+h1{
+	font-size: 36px;
+}
+
+h2{
+	font-size: 28px;
+}
+
+h3{	
+	font-size: 24px;
+}
+
+h4{
+	font-size: 18px;
+}
+
+h5{
+	font-size: 14px;
+}
+
+h6{
+    font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin-bottom: 15px;
+}
+
+p{	
+    font-size: 15px;
+    line-height: 1.5;   
+    margin-bottom: 22px;
+}
+
+.product-title{
+	color: #414141;
+	font-size: 14px;
+}
+
+.price{
+	color: #000000;
+	font-size: 18px;
+	font-weight: 600;
+}

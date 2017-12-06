@@ -1,0 +1,43 @@
+#menu-toggle{
+	float: right;
+
+	@include bp( medium){
+		display: none;
+	}
+}
+
+.site-navigation{
+	display: none;
+	float: right;
+	width: 90%;
+
+	position: absolute;
+	top: 50px;
+	background: rgba( 0,0,0, 0.4);
+
+	li{		
+		a{		
+			display: block;				
+			font-size: 16px;
+			padding: 12px 15px;
+		}
+	}
+
+	@include bp( medium){
+		display: block;
+		position: static;
+		top: 0;
+		width: auto;
+		margin-top: 0;	
+
+		background: transparent;
+
+		li{
+			display: inline-block;			
+		}
+
+		li a{
+			padding: 2px 15px;
+		}
+	}
+}
